@@ -21,10 +21,15 @@ def iss_local():
     
     iss_curr = iss_local.json()
     # print(iss_curr)
-    state = iss_curr['address']['state']
-    country = iss_curr['address']['country']
-
-    return render_template("iss.html",country=country, state=state)
+    if 'address' in iss_curr:
+        state = iss_curr['address']['state']
+        country = iss_curr['address']['country']
+    else:
+        state = "Over"
+        country = "Water"
+    return render_template("iss.html",country=country, state=state, lat=lat, lon=lon)
+    
+        
 
 if __name__ == '__main__':
     server.run(host='0.0.0.0', debug=True)
