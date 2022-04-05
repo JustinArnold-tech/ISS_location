@@ -1,10 +1,12 @@
 import os
+import re
 import requests
 from flask import Flask, render_template
 
 server = Flask(__name__)
 PRIVATE_TOKEN = os.getenv('PRIVATE_TOKEN')
 url = "http://api.open-notify.org/iss-now.json"
+url2 = "http://api.open-notify.org/astros.json"
 
 @server.route("/", methods=['GET'])
 def iss_local():
@@ -28,7 +30,13 @@ def iss_local():
     else:
         state = "Over"
         country = "Water"
-    return render_template("iss.html",country=country, state=state, lat=lat, lon=lon)
+
+    req2 = requests.get(url2)
+    
+    obj2 = req2.json()
+    cnt = obj2['number']
+
+    return render_template("iss.html",country=country, state=state, lat=lat, lon=lon, cnt=cnt)
     
         
 
