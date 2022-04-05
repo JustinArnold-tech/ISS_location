@@ -27,7 +27,6 @@ def iss_local():
     iss_curr = iss_local.json()
     
     if 'address' in iss_curr:
-        state = iss_curr['address']['state']
         country = iss_curr['address']['country']
     else:
         state = "Over"
