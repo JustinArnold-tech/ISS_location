@@ -1,8 +1,9 @@
+import os
 import requests
 from flask import Flask, render_template
 
 server = Flask(__name__)
-PRIVATE_TOKEN = "pk.addf779a6ccc6dc99c20e9c74f39da2f"
+PRIVATE_TOKEN = os.getenv('PRIVATE_TOKEN')
 url = "http://api.open-notify.org/iss-now.json"
 
 @server.route("/", methods=['GET'])
