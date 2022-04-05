@@ -18,7 +18,7 @@ def iss_local():
     lat = obj['iss_position']['latitude']
     lon = obj['iss_position']['longitude']
     
-    #Takes the latitude and longitude and puts it into location api to find state and country the ISS is over
+    #Takes the latitude and longitude and puts it into location api to find which country the ISS is over
     try:
         iss_local = requests.get(f'https://us1.locationiq.com/v1/reverse.php?key={PRIVATE_TOKEN}&lat={lat}&lon={lon}&format=json')
     except Exception as e:
@@ -29,8 +29,7 @@ def iss_local():
     if 'address' in iss_curr:
         country = iss_curr['address']['country']
     else:
-        state = "Over"
-        country = "Water"
+        country = "Over Water"
 
     #Gets the number of people currently in space
     req2 = requests.get(url2)
