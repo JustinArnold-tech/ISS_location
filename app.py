@@ -39,7 +39,7 @@ def iss_local():
     cnt = obj2['number']
 
     #Renders to info to html
-    return render_template("iss.html",country=country, state=state, lat=lat, lon=lon, cnt=cnt)
+    return render_template("iss.html",country=country, lat=lat, lon=lon, cnt=cnt)
     
 
 if __name__ == '__main__':
