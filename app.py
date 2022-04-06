@@ -3,7 +3,7 @@ import requests
 from flask import Flask, render_template
 
 server = Flask(__name__)
-LOCATION_API_TOKEN = os.getenv('PRIVATE_TOKEN')
+LOCATION_API_TOKEN = os.getenv('LOCATION_API_TOKEN')
 url = "http://api.open-notify.org/iss-now.json"
 url2 = "http://api.open-notify.org/astros.json"
 
