@@ -4,7 +4,8 @@ import requests
 from flask import Flask, render_template
 
 server = Flask(__name__)
-PRIVATE_TOKEN = os.getenv('PRIVATE_TOKEN')
+# PRIVATE_TOKEN = os.getenv('PRIVATE_TOKEN')
+PRIVATE_TOKEN = 'pk.addf779a6ccc6dc99c20e9c74f39da2f'
 url = "http://api.open-notify.org/iss-now.json"
 url2 = "http://api.open-notify.org/astros.json"
 
@@ -25,7 +26,7 @@ def iss_local():
         raise e
     
     iss_curr = iss_local.json()
-    
+    print(iss_curr)
     if 'address' in iss_curr:
         country = iss_curr['address']['country']
     else:
