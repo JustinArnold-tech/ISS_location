@@ -1,5 +1,4 @@
 import os
-import re
 import requests
 from flask import Flask, render_template
 
@@ -20,7 +19,7 @@ def iss_local():
     
     #Takes the latitude and longitude and puts it into location api to find which country the ISS is over
     try:
-        iss_local = requests.get(f'https://us1.locationiq.com/v1/reverse.php?key={PRIVATE_TOKEN}&lat={lat}&lon={lon}&format=json')
+        iss_local = requests.get(f'https://us1.locationiq.com/v1/reverse.php?key={LOCATION_API_TOKEN}&lat={lat}&lon={lon}&format=json')
     except Exception as e:
         raise e
     
