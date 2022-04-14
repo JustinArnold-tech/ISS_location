@@ -6,7 +6,7 @@ from flask import Flask, render_template, request
 
 server = Flask(__name__)
 apiKey = os.getenv('apiKey')
-POSTER_KEY = os.getenv("k_36k6exf5")
+POSTER_KEY = os.getenv("POSTER_KEY")
 
 @server.route("/", methods=['Get', 'Post'])
 def api_weather():
