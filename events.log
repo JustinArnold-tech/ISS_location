@@ -1,0 +1,146 @@
+04/20/2022 12:23:34 PM  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000 (Press CTRL+C to quit)
+04/20/2022 12:23:34 PM  * Restarting with stat
+04/20/2022 12:23:34 PM  * Debugger is active!
+04/20/2022 12:23:34 PM  * Debugger PIN: 115-183-243
+04/20/2022 12:28:18 PM  * Detected change in '/Users/justinarnold/Documents/GitHub/info-of-movie/app.py', reloading
+04/20/2022 12:28:18 PM  * Restarting with stat
+04/20/2022 12:28:18 PM  * Debugger is active!
+04/20/2022 12:28:18 PM  * Debugger PIN: 115-183-243
+04/20/2022 12:29:32 PM  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000 (Press CTRL+C to quit)
+04/20/2022 12:29:32 PM  * Restarting with stat
+04/20/2022 12:29:32 PM  * Debugger is active!
+04/20/2022 12:29:32 PM  * Debugger PIN: 115-183-243
+04/20/2022 12:30:11 PM 127.0.0.1 - - [20/Apr/2022 12:30:11] "GET / HTTP/1.1" 200 -
+04/20/2022 12:30:11 PM 127.0.0.1 - - [20/Apr/2022 12:30:11] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
+04/20/2022 12:30:12 PM 127.0.0.1 - - [20/Apr/2022 12:30:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/20/2022 12:30:20 PM 127.0.0.1 - - [20/Apr/2022 12:30:20] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+04/20/2022 12:30:20 PM 127.0.0.1 - - [20/Apr/2022 12:30:20] "movie=redGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+04/20/2022 12:30:20 PM 127.0.0.1 - - [20/Apr/2022 12:30:20] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+04/20/2022 12:30:20 PM 127.0.0.1 - - [20/Apr/2022 12:30:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+04/20/2022 12:30:20 PM 127.0.0.1 - - [20/Apr/2022 12:30:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+04/20/2022 12:34:03 PM  * Detected change in '/Users/justinarnold/Documents/GitHub/info-of-movie/app.py', reloading
+04/20/2022 12:34:03 PM  * Restarting with stat
+04/20/2022 12:34:03 PM  * Debugger is active!
+04/20/2022 12:34:03 PM  * Debugger PIN: 115-183-243
+04/20/2022 12:34:12 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 12:34:12 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 12:34:12 PM red
+04/20/2022 12:34:12 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 12:34:12 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 12:34:13 PM 127.0.0.1 - - [20/Apr/2022 12:34:13] "POST / HTTP/1.1" 200 -
+04/20/2022 12:40:10 PM  * Detected change in '/Users/justinarnold/Documents/GitHub/info-of-movie/app.py', reloading
+04/20/2022 12:40:10 PM  * Restarting with stat
+04/20/2022 12:40:10 PM  * Debugger is active!
+04/20/2022 12:40:10 PM  * Debugger PIN: 115-183-243
+04/20/2022 12:40:20 PM 127.0.0.1 - - [20/Apr/2022 12:40:20] "GET / HTTP/1.1" 200 -
+04/20/2022 12:40:22 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 12:40:22 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 12:40:22 PM red
+04/20/2022 12:40:22 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 12:40:23 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 12:40:23 PM 127.0.0.1 - - [20/Apr/2022 12:40:23] "POST / HTTP/1.1" 200 -
+04/20/2022 01:16:00 PM  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000 (Press CTRL+C to quit)
+04/20/2022 01:16:00 PM  * Restarting with stat
+04/20/2022 01:16:00 PM  * Debugger is active!
+04/20/2022 01:16:00 PM  * Debugger PIN: 115-183-243
+04/20/2022 01:16:17 PM 127.0.0.1 - - [20/Apr/2022 13:16:17] "GET / HTTP/1.1" 200 -
+04/20/2022 01:16:17 PM 127.0.0.1 - - [20/Apr/2022 13:16:17] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
+04/20/2022 01:16:21 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 01:16:22 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 01:16:22 PM red
+04/20/2022 01:16:22 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 01:16:22 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 01:16:22 PM 127.0.0.1 - - [20/Apr/2022 13:16:22] "POST / HTTP/1.1" 200 -
+04/20/2022 01:20:46 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 01:20:46 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 01:20:46 PM red
+04/20/2022 01:20:46 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 01:20:46 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 01:20:46 PM 127.0.0.1 - - [20/Apr/2022 13:20:46] "POST / HTTP/1.1" 200 -
+04/20/2022 01:24:22 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 01:24:23 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 01:24:23 PM red
+04/20/2022 01:24:23 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 01:24:24 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 01:24:24 PM 127.0.0.1 - - [20/Apr/2022 13:24:24] "POST / HTTP/1.1" 200 -
+04/20/2022 01:27:42 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 01:27:42 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 01:27:42 PM red
+04/20/2022 01:27:42 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 01:27:43 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 01:27:43 PM 127.0.0.1 - - [20/Apr/2022 13:27:43] "POST / HTTP/1.1" 200 -
+04/20/2022 01:28:46 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 01:28:46 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 01:28:46 PM red
+04/20/2022 01:28:46 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 01:28:47 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 01:28:47 PM 127.0.0.1 - - [20/Apr/2022 13:28:47] "POST / HTTP/1.1" 200 -
+04/20/2022 01:35:28 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 01:35:28 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 01:35:28 PM red
+04/20/2022 01:35:28 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 01:35:29 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 01:35:29 PM 127.0.0.1 - - [20/Apr/2022 13:35:29] "POST / HTTP/1.1" 200 -
+04/20/2022 01:47:06 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 01:47:06 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 01:47:06 PM red
+04/20/2022 01:47:06 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 01:47:07 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 01:47:07 PM 127.0.0.1 - - [20/Apr/2022 13:47:07] "POST / HTTP/1.1" 200 -
+04/20/2022 01:48:23 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 01:48:23 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 01:48:23 PM red
+04/20/2022 01:48:23 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 01:48:23 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 01:48:23 PM 127.0.0.1 - - [20/Apr/2022 13:48:23] "POST / HTTP/1.1" 200 -
+04/20/2022 02:00:20 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 02:00:21 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 02:00:21 PM red
+04/20/2022 02:00:21 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 02:00:21 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 02:00:21 PM 127.0.0.1 - - [20/Apr/2022 14:00:21] "POST / HTTP/1.1" 200 -
+04/20/2022 02:02:32 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 02:02:32 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 02:02:32 PM red
+04/20/2022 02:02:32 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 02:02:33 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 02:02:33 PM 127.0.0.1 - - [20/Apr/2022 14:02:33] "POST / HTTP/1.1" 200 -
+04/20/2022 02:07:42 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 02:07:42 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 02:07:42 PM red
+04/20/2022 02:07:42 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 02:07:43 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 02:07:43 PM 127.0.0.1 - - [20/Apr/2022 14:07:43] "POST / HTTP/1.1" 200 -
+04/20/2022 02:13:04 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 02:13:05 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 02:13:05 PM red
+04/20/2022 02:13:05 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 02:13:05 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 02:13:05 PM 127.0.0.1 - - [20/Apr/2022 14:13:05] "POST / HTTP/1.1" 200 -
+04/20/2022 02:13:48 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 02:13:48 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 02:13:48 PM red
+04/20/2022 02:13:48 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 02:13:48 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 02:13:48 PM 127.0.0.1 - - [20/Apr/2022 14:13:48] "POST / HTTP/1.1" 200 -
+04/20/2022 02:16:01 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 02:16:01 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 02:16:01 PM red
+04/20/2022 02:16:01 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 02:16:01 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 02:16:01 PM 127.0.0.1 - - [20/Apr/2022 14:16:01] "POST / HTTP/1.1" 200 -
+04/20/2022 02:17:30 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 02:17:30 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 02:17:30 PM red
+04/20/2022 02:17:30 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 02:17:31 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 02:17:31 PM 127.0.0.1 - - [20/Apr/2022 14:17:31] "POST / HTTP/1.1" 200 -

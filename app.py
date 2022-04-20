@@ -6,8 +6,10 @@ from flask import Flask, render_template, request
 
 DEBUG = True
 server = Flask(__name__)
-apiKey = os.getenv('apiKey')
-POSTER_KEY = os.getenv("POSTER_KEY")
+# apiKey = os.getenv('apiKey')
+apiKey = 'e9ee25ea'
+# POSTER_KEY = os.getenv("POSTER_KEY")
+POSTER_KEY = "k_36k6exf5"
 LOG_FILE = 'events.log'
 
 
@@ -27,7 +29,7 @@ def api_movie():
             'y':year,
             'plot':'full'
         }
-        
+
         try:
             response = requests.get(data_URL,params=params).json()
         except Exception as e:
@@ -67,11 +69,11 @@ def api_movie():
             raise e
 
         if DEBUG:
-            pprint(poster_info)
+            pprint(poster_info['posters'][0]['link'])
         poster = poster_info['posters'][0]['link']
         return render_template('movie.html', poster=poster, **info)
 
     return render_template('index.html')
 
 if __name__ == '__main__':
-    server.run(host='0.0.0.0', debug=True)
+    server.run(host='0.0.0.0', port=8000, debug=True)
