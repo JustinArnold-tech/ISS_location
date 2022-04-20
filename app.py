@@ -4,7 +4,7 @@ import logging as logg
 from pprint import pprint
 from flask import Flask, render_template, request
 
-
+DEBUG = True
 server = Flask(__name__)
 apiKey = os.getenv('apiKey')
 POSTER_KEY = os.getenv("POSTER_KEY")
