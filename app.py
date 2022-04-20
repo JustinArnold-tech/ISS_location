@@ -27,8 +27,12 @@ def api_movie():
             'y':year,
             'plot':'full'
         }
-        response = requests.get(data_URL,params=params).json()
-
+        
+        try:
+            response = requests.get(data_URL,params=params).json()
+        except Exception as e:
+            raise e
+        
         if DEBUG:
             logg.debug(movie)
 
