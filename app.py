@@ -28,6 +28,12 @@ def api_movie():
         }
         response = requests.get(data_URL,params=params).json()
 
+        if DEBUG:
+            logg.debug(movie)
+
+        if movie == response["Title"]:
+            logg.error(f"Unable to find movie")
+
         Title = response['Title']
         released = response['Released']
         Rating = response['Rated']
