@@ -6,12 +6,10 @@ from flask import Flask, render_template, request
 
 DEBUG = True
 server = Flask(__name__)
-# apiKey = os.getenv('apiKey')
-# POSTER_KEY = os.getenv("POSTER_KEY")
+apiKey = os.getenv('apiKey')
+POSTER_KEY = os.getenv("POSTER_KEY")
 LOG_FILE = 'events.log'
 
-POSTER_KEY = 'k_36k6exf5'
-apiKey = 'e9ee25ea'
 
 logg.basicConfig(filename=LOG_FILE, encoding='utf-8', level=logg.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
