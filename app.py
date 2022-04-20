@@ -13,7 +13,7 @@ LOG_FILE = 'events.log'
 logg.basicConfig(filename=LOG_FILE, encoding='utf-8', level=logg.DEBUG, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
 
 @server.route("/", methods=['Get', 'Post'])
-def api_weather():
+def api_movie():
     
     if request.method == 'POST':
         
