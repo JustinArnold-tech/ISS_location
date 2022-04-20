@@ -6,10 +6,9 @@ from flask import Flask, render_template, request
 
 DEBUG = True
 server = Flask(__name__)
-# apiKey = os.getenv('apiKey')
-apiKey = 'e9ee25ea'
-# POSTER_KEY = os.getenv("POSTER_KEY")
-POSTER_KEY = "k_36k6exf5"
+apiKey = os.getenv('apiKey')
+
+POSTER_KEY = os.getenv("POSTER_KEY")
 LOG_FILE = 'events.log'
 
 
