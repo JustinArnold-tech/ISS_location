@@ -36,7 +36,8 @@ body {background-color: rgb(4, 83, 114);}
           </div>
         </div>
     </div>
-    <center><h1>Need to figure out who was in that movie</h1></center>
+    <div id="txt" class="container-fluid">
+        <center><h1>Need to figure out who was in that movie</h1></center>
     <center><h1>or what year it came out?</h1></center>
     <center><h3>Enter the movie below</h3></center>
     <center><form action="#" method="post">
@@ -44,6 +45,8 @@ body {background-color: rgb(4, 83, 114);}
         <input type="text" name="movie" id="movie">
         <button type="submit">Submit</button>
     </form></center>
+    </div>
+    
     {% for error in errors %}
         {{error}}
     {% endfor %}    

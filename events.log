@@ -148,3 +148,24 @@
 04/20/2022 02:20:47 PM  * Restarting with stat
 04/20/2022 02:20:47 PM  * Debugger is active!
 04/20/2022 02:20:47 PM  * Debugger PIN: 115-183-243
+04/20/2022 03:16:53 PM  * Detected change in '/Users/justinarnold/Documents/GitHub/info-of-movie/app.py', reloading
+04/20/2022 03:16:53 PM  * Restarting with stat
+04/20/2022 03:17:39 PM  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.2:8000 (Press CTRL+C to quit)
+04/20/2022 03:17:39 PM  * Restarting with stat
+04/20/2022 03:17:39 PM  * Debugger is active!
+04/20/2022 03:17:40 PM  * Debugger PIN: 115-183-243
+04/20/2022 03:18:23 PM 127.0.0.1 - - [20/Apr/2022 15:18:23] "GET / HTTP/1.1" 200 -
+04/20/2022 03:18:23 PM 127.0.0.1 - - [20/Apr/2022 15:18:23] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
+04/20/2022 03:18:23 PM 127.0.0.1 - - [20/Apr/2022 15:18:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/20/2022 03:25:19 PM 127.0.0.1 - - [20/Apr/2022 15:25:19] "GET / HTTP/1.1" 200 -
+04/20/2022 03:25:19 PM 127.0.0.1 - - [20/Apr/2022 15:25:19] "[33mGET /static/index.css HTTP/1.1[0m" 404 -
+04/20/2022 03:25:28 PM Starting new HTTP connection (1): www.omdbapi.com:80
+04/20/2022 03:25:28 PM http://www.omdbapi.com:80 "GET /?apikey=e9ee25ea&t=red&type=movie&y=&plot=full HTTP/1.1" 200 None
+04/20/2022 03:25:28 PM red
+04/20/2022 03:25:28 PM Starting new HTTPS connection (1): imdb-api.com:443
+04/20/2022 03:25:28 PM https://imdb-api.com:443 "GET /en/API/Posters/k_36k6exf5/tt1245526 HTTP/1.1" 200 None
+04/20/2022 03:25:28 PM 127.0.0.1 - - [20/Apr/2022 15:25:28] "POST / HTTP/1.1" 200 -
+04/20/2022 03:25:43 PM 127.0.0.1 - - [20/Apr/2022 15:25:43] "GET / HTTP/1.1" 200 -
